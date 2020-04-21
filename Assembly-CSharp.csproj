@@ -59,35 +59,23 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Demo\Scripts\ARTapToPlaceObject.cs" />
+ <Reference Include="Unity.XR.ARKit.FaceTracking.Editor">
+ <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Management">
+ <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.VSCode.Editor">
- <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline">
- <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <Reference Include="Unity.XR.ARKit">
+ <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Subsystem.Registration">
  <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VSCode.Editor">
+ <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARSubsystems">
  <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
@@ -95,14 +83,41 @@
  <Reference Include="Unity.XR.ARSubsystems.Editor">
  <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.XR.ARCore">
+ <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.XR.ARFoundation.Editor">
  <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARKit.FaceTracking">
+ <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARFoundation">
  <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARCore.Editor">
+ <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.CollabProxy.Editor">
+ <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
  <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Management.Editor">
+ <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
  <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
@@ -110,32 +125,17 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
  <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
- <Reference Include="Unity.XR.Management">
- <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARCore">
- <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARCore.Editor">
- <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Management.Editor">
- <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARKit.FaceTracking.Editor">
- <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARKit">
- <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARKit.FaceTracking">
- <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.XR.ARKit.FaceTracking.dll</HintPath>
- </Reference>
  <Reference Include="Unity.XR.ARKit.Editor">
  <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Users/sabac/MyPrograms/source/C#/Unity/AR_Foundation_demo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/2019.3.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
