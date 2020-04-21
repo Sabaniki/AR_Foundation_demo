@@ -6,6 +6,7 @@ using UnityEngine.Experimental.XR;
 using UnityEngine.XR.ARSubsystems;
 
 public class ARTapToPlaceObject : MonoBehaviour {
+    public GameObject placementIndicator;
     private ARSessionOrigin arSessionOrigin;
     private ARRaycastManager arRaycastManager;
     private bool placementPoseIsValid = false;
@@ -22,6 +23,11 @@ public class ARTapToPlaceObject : MonoBehaviour {
     }
 
     private void UpdatePlacementIndicator() {
+        if (placementPoseIsValid) {
+            placementIndicator.SetActive(true);
+            placementIndicator.transform.SetPositionAndRotation(placementPose.position, placementPose.rotation);
+        }
+        else placementIndicator.SetActive(false);
     }
 
     private void UpdatePlacementPose() {
