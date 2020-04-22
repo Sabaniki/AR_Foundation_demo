@@ -6,12 +6,14 @@ using UnityEngine.Experimental.XR;
 using UnityEngine.XR.ARSubsystems;
 
 public class ARTapToPlaceObject : MonoBehaviour {
+    public GameObject objectToPlace;
     public GameObject placementIndicator;
+    
     private ARSessionOrigin arSessionOrigin;
     private ARRaycastManager arRaycastManager;
     private bool placementPoseIsValid = false;
-    
     private Pose placementPose;
+    
     void Start() {
         arSessionOrigin = FindObjectOfType<ARSessionOrigin>();
         arRaycastManager = arSessionOrigin.GetComponent<ARRaycastManager>();
@@ -20,6 +22,14 @@ public class ARTapToPlaceObject : MonoBehaviour {
     void Update() {
         UpdatePlacementPose();
         UpdatePlacementIndicator();
+
+        if (placementPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) {
+            PlaceObject();
+        }
+    }
+
+    private void PlaceObject() {
+        Instantiate(objectToPlace, placementPose.position, placementPose.rotation);
     }
 
     private void UpdatePlacementIndicator() {
