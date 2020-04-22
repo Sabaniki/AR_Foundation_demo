@@ -41,6 +41,14 @@ public class ARTapToPlaceObject : MonoBehaviour {
         placementPoseIsValid = hits.Count > 0;
         if (placementPoseIsValid) {
             placementPose = hits[0].pose;
+            
+            // 現在のカメラオブジェクトを基準にしたZ方向(0, 0, 1)の単位ベクトル    ※UnityではZ方向が前
+            var cameraForward = Camera.current.transform.forward;
+            
+            // normalized: 最大値が1.0のベクトルが作成される    例) (2.0, 4.0, 1.0) → (0.5, 1.0, 0.25)
+            var cameraBearing = new Vector3(cameraForward.x, 0f, cameraForward.z).normalized;
+            
+            placementPose.rotation = Quaternion.LookRotation(cameraBearing);
         }
     }
 }
